@@ -1,0 +1,11 @@
+﻿<Application>
+	<Menus>
+		<action type="remove">
+			<Menu UniqueID="mnu_AppTemp"></Menu>
+      <Menu UniqueID="mnu_LogSetup"></Menu>
+      <Menu UniqueID="mnu_AssItemCat"></Menu>
+      <Menu UniqueID="mnu_ItemCat"></Menu>
+			<Menu UniqueID="mnu_PRDLC"></Menu>
+		</action>
+	</Menus>
+</Application>

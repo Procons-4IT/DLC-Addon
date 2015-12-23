@@ -1,0 +1,6 @@
+E:\Projects\AddOn\Purchase Requisition DLC\Purchase Requisition DLC\obj\Debug\Interop.SAPbobsCOM.dll
+E:\Projects\AddOn\Purchase Requisition DLC\Purchase Requisition DLC\obj\Debug\Interop.Scripting.dll
+E:\Projects\AddOn\Purchase Requisition DLC\Purchase Requisition DLC\obj\Debug\Project Template.vbproj.ResolveComReference.cache
+E:\Projects\AddOn\Purchase Requisition DLC\Purchase Requisition DLC\obj\Debug\Project Template.exe
+E:\Projects\AddOn\Purchase Requisition DLC\Purchase Requisition DLC\obj\Debug\Project Template.xml
+E:\Projects\AddOn\Purchase Requisition DLC\Purchase Requisition DLC\obj\Debug\Project Template.pdb

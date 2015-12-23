@@ -1,0 +1,20 @@
+<Application>
+  <Menus>
+    <action type="add">
+
+      <Menu Checked="0" Enabled="1" FatherUID="43525" Image="" Position="2" String="Purchase Requisition"
+      Type="2" UniqueID="mnu_PRDLC"></Menu>
+      <Menu Checked="0" Enabled="1" FatherUID="mnu_PRDLC" Image="" Position="0" String="Item Category-Setup"
+      Type="1" UniqueID="mnu_ItemCat"></Menu>
+      <!--<Menu Checked="0" Enabled="1" FatherUID="mnu_PRDLC" Image="" Position="1" String="Assign Item Category"
+      Type="1" UniqueID="mnu_AssItemCat"></Menu>-->
+      <Menu Checked="0" Enabled="1" FatherUID="mnu_PRDLC" Image="" Position="1" String="ESS Login Setup"
+     Type="1" UniqueID="mnu_LogSetup"></Menu>
+      <Menu Checked="0" Enabled="1" FatherUID="mnu_PRDLC" Image="" Position="2" String="Approval Template"
+     Type="1" UniqueID="mnu_AppTemp"></Menu>
+
+      <Menu Checked="0" Enabled="1" FatherUID="mnu_PRDLC" Image="" Position="3" String="EMail Setup"
+  Type="1" UniqueID="z_mnu_DLC_EmailSetUp"></Menu>
+    </action>
+  </Menus>
+</Application>
