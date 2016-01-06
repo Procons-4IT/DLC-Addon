@@ -73,3 +73,18 @@ E:\Projects\AddOn\Purchase Requisition DLC\SourceCode\Purchase Requisition DLC_2
 E:\Projects\AddOn\Purchase Requisition DLC\SourceCode\Purchase Requisition DLC_20151201\bin\Debug\Interop.Scripting.dll
 E:\Projects\AddOn\Purchase Requisition DLC\SourceCode\Purchase Requisition DLC_20151201\obj\Debug\PurchaseRequisitionDLC.Resources.resources
 E:\Projects\AddOn\Purchase Requisition DLC\SourceCode\Purchase Requisition DLC_20151201\obj\Debug\Purchase Requisition DLC.vbproj.GenerateResource.Cache
+E:\Projects\AddOn\Purchase Requisition DLC\SourceCode\Purchase Requisition DLC_20160106\obj\Debug\Interop.SAPbobsCOM.dll
+E:\Projects\AddOn\Purchase Requisition DLC\SourceCode\Purchase Requisition DLC_20160106\obj\Debug\Interop.SAPbouiCOM.dll
+E:\Projects\AddOn\Purchase Requisition DLC\SourceCode\Purchase Requisition DLC_20160106\obj\Debug\Interop.Scripting.dll
+E:\Projects\AddOn\Purchase Requisition DLC\SourceCode\Purchase Requisition DLC_20160106\obj\Debug\Purchase Requisition DLC.vbproj.ResolveComReference.cache
+E:\Projects\AddOn\Purchase Requisition DLC\SourceCode\Purchase Requisition DLC_20160106\obj\Debug\Purchase Requisition DLC.exe
+E:\Projects\AddOn\Purchase Requisition DLC\SourceCode\Purchase Requisition DLC_20160106\obj\Debug\Purchase Requisition DLC.xml
+E:\Projects\AddOn\Purchase Requisition DLC\SourceCode\Purchase Requisition DLC_20160106\obj\Debug\Purchase Requisition DLC.pdb
+E:\Projects\AddOn\Purchase Requisition DLC\SourceCode\Purchase Requisition DLC_20160106\bin\Debug\Purchase Requisition DLC.exe
+E:\Projects\AddOn\Purchase Requisition DLC\SourceCode\Purchase Requisition DLC_20160106\bin\Debug\Purchase Requisition DLC.pdb
+E:\Projects\AddOn\Purchase Requisition DLC\SourceCode\Purchase Requisition DLC_20160106\bin\Debug\Purchase Requisition DLC.xml
+E:\Projects\AddOn\Purchase Requisition DLC\SourceCode\Purchase Requisition DLC_20160106\bin\Debug\Interop.SAPbobsCOM.dll
+E:\Projects\AddOn\Purchase Requisition DLC\SourceCode\Purchase Requisition DLC_20160106\bin\Debug\Interop.SAPbouiCOM.dll
+E:\Projects\AddOn\Purchase Requisition DLC\SourceCode\Purchase Requisition DLC_20160106\bin\Debug\Interop.Scripting.dll
+E:\Projects\AddOn\Purchase Requisition DLC\SourceCode\Purchase Requisition DLC_20160106\obj\Debug\PurchaseRequisitionDLC.Resources.resources
+E:\Projects\AddOn\Purchase Requisition DLC\SourceCode\Purchase Requisition DLC_20160106\obj\Debug\Purchase Requisition DLC.vbproj.GenerateResource.Cache

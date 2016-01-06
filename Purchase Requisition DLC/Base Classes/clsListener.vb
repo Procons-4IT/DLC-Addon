@@ -170,6 +170,12 @@ Public Class clsListener
 
             If pVal.EventType <> SAPbouiCOM.BoEventTypes.et_FORM_UNLOAD Then
                 Select Case pVal.FormTypeEx
+                    Case frm_DisRule
+                        If Not _Collection.ContainsKey(FormUID) Then
+                            oItemObject = New clsDisRule
+                            oItemObject.FrmUID = FormUID
+                            _Collection.Add(FormUID, oItemObject)
+                        End If
                     Case frm_DLC_EmailSetUp
                         If Not _Collection.ContainsKey(FormUID) Then
                             oItemObject = New clsEmailSetUp

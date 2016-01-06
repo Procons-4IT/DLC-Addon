@@ -12,6 +12,7 @@ Public Module modVariables
     Public blnError As Boolean = False
     Public strDocEntry As String
     Public intSelectedMatrixrow As Integer = 0
+    Public frmSourceForm As SAPbouiCOM.Form
 
     Public Enum ValidationResult As Integer
         CANCEL = 0
@@ -71,4 +72,7 @@ Public Module modVariables
     Public Const mnu_DLC_EmailSetUp As String = "z_mnu_DLC_EmailSetUp"
     Public Const xml_DLC_EmailSetUp As String = "frm_DLC_EmailSetUp.xml"
     Public Const frm_DLC_EmailSetUp As String = "frm_DLC_EmailSetUp"
+
+    Public Const frm_DisRule As String = "frm_DisRule"
+    Public Const xml_DisRule As String = "frm_DisRule.xml"
 End Module

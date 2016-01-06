@@ -397,6 +397,7 @@ Public NotInheritable Class clsTable
             AddFields("Z_DLC_LOGIN", "INTID", "Internal ID", SAPbobsCOM.BoFieldTypes.db_Alpha, , 100)
             addField("Z_DLC_LOGIN", "AllItemCat", "All ItemCategory", SAPbobsCOM.BoFieldTypes.db_Alpha, 1, SAPbobsCOM.BoFldSubTypes.st_Address, "Y,N", "Yes,No", "N")
             addField("Z_DLC_LOGIN", "AllWhs", "All Warehouse", SAPbobsCOM.BoFieldTypes.db_Alpha, 1, SAPbobsCOM.BoFldSubTypes.st_Address, "Y,N", "Yes,No", "N")
+            AddFields("Z_DLC_LOGIN", "Dimension", "Cost Center", SAPbobsCOM.BoFieldTypes.db_Alpha, , 250)
 
             AddTables("Z_ITCAT1", "Item Category", SAPbobsCOM.BoUTBTableType.bott_DocumentLines)
             AddFields("Z_ITCAT1", "CatCode", "Category Code", SAPbobsCOM.BoFieldTypes.db_Alpha, , 40)
@@ -454,6 +455,7 @@ Public NotInheritable Class clsTable
             addField("@Z_OPRQ", "Z_Priority", "Priority", SAPbobsCOM.BoFieldTypes.db_Alpha, 1, SAPbobsCOM.BoFldSubTypes.st_Address, "L,M,H", "Low,Medium,High", "L")
             addField("@Z_OPRQ", "Z_DocStatus", "Document Status", SAPbobsCOM.BoFieldTypes.db_Alpha, 2, SAPbobsCOM.BoFldSubTypes.st_Address, "O,I,C,D,R,L,S,DI", "Open,InProgress,Closed,Draft,DLC Rejected,Cancelled,Confirm,DLC InProgress", "D")
             AddFields("Z_OPRQ", "Z_Destination", "Destination", SAPbobsCOM.BoFieldTypes.db_Alpha, , 200)
+            AddFields("Z_OPRQ", "Dimension", "Cost Center", SAPbobsCOM.BoFieldTypes.db_Alpha, , 250)
 
             AddTables("Z_PRQ1", "Purchase Request Lines", SAPbobsCOM.BoUTBTableType.bott_DocumentLines)
             AddFields("Z_PRQ1", "Z_DocNo", "Document Number", SAPbobsCOM.BoFieldTypes.db_Alpha, , 50)
@@ -485,6 +487,7 @@ Public NotInheritable Class clsTable
             AddFields("Z_PRQ1", "Z_Approvedt", "Approver Date", SAPbobsCOM.BoFieldTypes.db_Date)
             addField("@Z_PRQ1", "Z_AppStatus", "Approved Status", SAPbobsCOM.BoFieldTypes.db_Alpha, 1, SAPbobsCOM.BoFldSubTypes.st_Address, "P,R,A", "Pending,Rejected,Approved", "P")
             addField("@Z_PRQ1", "Z_GoodIssue", "Goods Issued", SAPbobsCOM.BoFieldTypes.db_Alpha, 1, SAPbobsCOM.BoFldSubTypes.st_Address, "Y,N", "Yes,No", "N")
+            AddFields("Z_PRQ1", "Dimension", "Cost Center", SAPbobsCOM.BoFieldTypes.db_Alpha, , 250)
             '---- User Defined Object's
 
 

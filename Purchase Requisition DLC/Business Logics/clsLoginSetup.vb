@@ -404,6 +404,22 @@
                                 Select Case pVal.ItemUID
                                     
                                 End Select
+                            Case SAPbouiCOM.BoEventTypes.et_KEY_DOWN
+                                oForm = oApplication.SBO_Application.Forms.Item(FormUID)
+                                If pVal.ItemUID = "29" And pVal.CharPressed = 9 Then
+                                    'oMatrix = oForm.Items.Item(pVal.ItemUID).Specific
+                                    Dim oObj As New clsDisRule
+                                    clsDisRule.SourceFormUID = FormUID
+                                    clsDisRule.ItemUID = pVal.ItemUID
+                                    clsDisRule.sourceColumID = ""
+                                    clsDisRule.sourcerowId = 0
+                                    oObj.strStaticValue = oApplication.Utilities.getEdittextvalue(oForm, pVal.ItemUID)
+                                    oApplication.Utilities.LoadForm(xml_DisRule, frm_DisRule)
+                                    oForm = oApplication.SBO_Application.Forms.ActiveForm()
+                                    oObj.databound(oForm)
+                                    BubbleEvent = False
+                                    Exit Sub
+                                End If
                             Case SAPbouiCOM.BoEventTypes.et_ITEM_PRESSED
                                 oForm = oApplication.SBO_Application.Forms.Item(FormUID)
                                 Select Case pVal.ItemUID
